@@ -1,0 +1,21 @@
+
+[
+ {
+   "_id": "0",
+   "player": "Sergi",
+   "score": 1000,
+   "date" : "27-03-2022",
+   "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/403/original/man-with-beard-avatar-character-isolated-icon-free-vector.jpg",
+   "updated_at":"2023-04-26T08:27:30.879000Z",
+            "created_at":"2023-04-26T08:27:30.879000Z"
+ },
+ {
+   "_id": "1",
+   "player": "Victor",
+   "score": 1500,
+   "date" : "27-03-2022",
+   "avatar": "https://static.vecteezy.com/system/resources/previews/002/002/257/original/beautiful-woman-avatar-character-icon-free-vector.jpg"
+ },
+
+]
+

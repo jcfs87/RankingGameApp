@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5E9E522A1BE4D8003DD333 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5E9E542A1BE4D8003DD333 /* Localizable.strings */; };
+		EFABA60B29D7276D00F43033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFABA60A29D7276D00F43033 /* Assets.xcassets */; };
+		EFABA60E29D7276D00F43033 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFABA60D29D7276D00F43033 /* Preview Assets.xcassets */; };
+		EFD4182B2A055284007EB351 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4182A2A055284007EB351 /* GameViewModel.swift */; };
+		EFD4182E2A05529D007EB351 /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4182D2A05529D007EB351 /* CoinListViewModel.swift */; };
+		EFD418312A05531D007EB351 /* futbolGame.json in Resources */ = {isa = PBXBuildFile; fileRef = EFD418302A05531D007EB351 /* futbolGame.json */; };
+		EFD418352A05534A007EB351 /* bugblast.json in Resources */ = {isa = PBXBuildFile; fileRef = EFD418342A05534A007EB351 /* bugblast.json */; };
+		EFD418382A055370007EB351 /* spacewars.json in Resources */ = {isa = PBXBuildFile; fileRef = EFD418372A055370007EB351 /* spacewars.json */; };
+		EFD4183E2A0553C7007EB351 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4183D2A0553C7007EB351 /* GameModel.swift */; };
+		EFD418422A0553D7007EB351 /* Gammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418412A0553D7007EB351 /* Gammer.swift */; };
+		EFD418452A0553EA007EB351 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418442A0553EA007EB351 /* Coin.swift */; };
+		EFD418482A055401007EB351 /* CryptoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418472A055401007EB351 /* CryptoData.swift */; };
+		EFD4184B2A055421007EB351 /* CryptoDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4184A2A055421007EB351 /* CryptoDataContainer.swift */; };
+		EFD4184E2A055441007EB351 /* CryptoServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4184D2A055441007EB351 /* CryptoServices.swift */; };
+		EFD418512A055483007EB351 /* SkillbettingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418502A055483007EB351 /* SkillbettingApp.swift */; };
+		EFD418552A0554D1007EB351 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418542A0554D1007EB351 /* GameView.swift */; };
+		EFD418592A0554EE007EB351 /* GammerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418582A0554EE007EB351 /* GammerRowView.swift */; };
+		EFD4185C2A055510007EB351 /* TopGammerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4185B2A055510007EB351 /* TopGammerRowView.swift */; };
+		EFD4185F2A055570007EB351 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4185E2A055570007EB351 /* ContentView.swift */; };
+		EFD418622A05558F007EB351 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418612A05558F007EB351 /* GameListView.swift */; };
+		EFD418652A055637007EB351 /* GammerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418642A055637007EB351 /* GammerListView.swift */; };
+		EFD418682A055652007EB351 /* GammerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD418672A055652007EB351 /* GammerDetailView.swift */; };
+		EFD4186B2A055671007EB351 /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD4186A2A055671007EB351 /* CoinListView.swift */; };
+		EFE3D4022A0BDE5300BEEDBC /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EFE3D4012A0BDE5300BEEDBC /* KingfisherSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E5E9E532A1BE4D8003DD333 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9E5E9E552A1BE51F003DD333 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EFABA60329D7276C00F43033 /* Skillbetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFABA60A29D7276D00F43033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFABA60D29D7276D00F43033 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFABA60F29D7276D00F43033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD4182A2A055284007EB351 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		EFD4182D2A05529D007EB351 /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
+		EFD418302A05531D007EB351 /* futbolGame.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = futbolGame.json; sourceTree = "<group>"; };
+		EFD418342A05534A007EB351 /* bugblast.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bugblast.json; sourceTree = "<group>"; };
+		EFD418372A055370007EB351 /* spacewars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = spacewars.json; sourceTree = "<group>"; };
+		EFD4183D2A0553C7007EB351 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		EFD418412A0553D7007EB351 /* Gammer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gammer.swift; sourceTree = "<group>"; };
+		EFD418442A0553EA007EB351 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		EFD418472A055401007EB351 /* CryptoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoData.swift; sourceTree = "<group>"; };
+		EFD4184A2A055421007EB351 /* CryptoDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDataContainer.swift; sourceTree = "<group>"; };
+		EFD4184D2A055441007EB351 /* CryptoServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoServices.swift; sourceTree = "<group>"; };
+		EFD418502A055483007EB351 /* SkillbettingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillbettingApp.swift; sourceTree = "<group>"; };
+		EFD418542A0554D1007EB351 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EFD418582A0554EE007EB351 /* GammerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GammerRowView.swift; sourceTree = "<group>"; };
+		EFD4185B2A055510007EB351 /* TopGammerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGammerRowView.swift; sourceTree = "<group>"; };
+		EFD4185E2A055570007EB351 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFD418612A05558F007EB351 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		EFD418642A055637007EB351 /* GammerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GammerListView.swift; sourceTree = "<group>"; };
+		EFD418672A055652007EB351 /* GammerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GammerDetailView.swift; sourceTree = "<group>"; };
+		EFD4186A2A055671007EB351 /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFABA60029D7276C00F43033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE3D4022A0BDE5300BEEDBC /* KingfisherSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFABA5FA29D7276C00F43033 = {
+			isa = PBXGroup;
+			children = (
+				EFABA60529D7276C00F43033 /* Skillbetting */,
+				EFABA60429D7276C00F43033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFABA60429D7276C00F43033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFABA60329D7276C00F43033 /* Skillbetting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFABA60529D7276C00F43033 /* Skillbetting */ = {
+			isa = PBXGroup;
+			children = (
+				EFD418292A0551FC007EB351 /* ViewModels */,
+				EFF51B0A29E71B830033E8D0 /* Resources */,
+				EFF51B0929E71B420033E8D0 /* Model */,
+				EFF51B0829E71B2D0033E8D0 /* Views */,
+				EFABA60A29D7276D00F43033 /* Assets.xcassets */,
+				EFD418502A055483007EB351 /* SkillbettingApp.swift */,
+				EFABA60F29D7276D00F43033 /* Info.plist */,
+				EFABA60C29D7276D00F43033 /* Preview Content */,
+			);
+			path = Skillbetting;
+			sourceTree = "<group>";
+		};
+		EFABA60C29D7276D00F43033 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFABA60D29D7276D00F43033 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFD418292A0551FC007EB351 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4182A2A055284007EB351 /* GameViewModel.swift */,
+				EFD4182D2A05529D007EB351 /* CoinListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EFD4183B2A05537F007EB351 /* API interna */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4183D2A0553C7007EB351 /* GameModel.swift */,
+				EFD418412A0553D7007EB351 /* Gammer.swift */,
+			);
+			path = "API interna";
+			sourceTree = "<group>";
+		};
+		EFD4183C2A055394007EB351 /* API coinranking */ = {
+			isa = PBXGroup;
+			children = (
+				EFD418442A0553EA007EB351 /* Coin.swift */,
+				EFD418472A055401007EB351 /* CryptoData.swift */,
+				EFD4184A2A055421007EB351 /* CryptoDataContainer.swift */,
+				EFD4184D2A055441007EB351 /* CryptoServices.swift */,
+			);
+			path = "API coinranking";
+			sourceTree = "<group>";
+		};
+		EFD418532A0554AD007EB351 /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				EFD418542A0554D1007EB351 /* GameView.swift */,
+				EFD418582A0554EE007EB351 /* GammerRowView.swift */,
+				EFD4185B2A055510007EB351 /* TopGammerRowView.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
+		EFF51B0829E71B2D0033E8D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFD418532A0554AD007EB351 /* HelperView */,
+				EFD4185E2A055570007EB351 /* ContentView.swift */,
+				EFD418612A05558F007EB351 /* GameListView.swift */,
+				EFD418642A055637007EB351 /* GammerListView.swift */,
+				EFD418672A055652007EB351 /* GammerDetailView.swift */,
+				9E5E9E542A1BE4D8003DD333 /* Localizable.strings */,
+				EFD4186A2A055671007EB351 /* CoinListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFF51B0929E71B420033E8D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4183C2A055394007EB351 /* API coinranking */,
+				EFD4183B2A05537F007EB351 /* API interna */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFF51B0A29E71B830033E8D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFD418302A05531D007EB351 /* futbolGame.json */,
+				EFD418342A05534A007EB351 /* bugblast.json */,
+				EFD418372A055370007EB351 /* spacewars.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFABA60229D7276C00F43033 /* Skillbetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFABA61229D7276D00F43033 /* Build configuration list for PBXNativeTarget "Skillbetting" */;
+			buildPhases = (
+				EFABA5FF29D7276C00F43033 /* Sources */,
+				EFABA60029D7276C00F43033 /* Frameworks */,
+				EFABA60129D7276C00F43033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skillbetting;
+			packageProductDependencies = (
+				EFE3D4012A0BDE5300BEEDBC /* KingfisherSwiftUI */,
+			);
+			productName = Skillbetting;
+			productReference = EFABA60329D7276C00F43033 /* Skillbetting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFABA5FB29D7276C00F43033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EFABA60229D7276C00F43033 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = EFABA5FE29D7276C00F43033 /* Build configuration list for PBXProject "Skillbetting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = EFABA5FA29D7276C00F43033;
+			packageReferences = (
+				EFE3D4002A0BDE5300BEEDBC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = EFABA60429D7276C00F43033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFABA60229D7276C00F43033 /* Skillbetting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFABA60129D7276C00F43033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD418352A05534A007EB351 /* bugblast.json in Resources */,
+				9E5E9E522A1BE4D8003DD333 /* Localizable.strings in Resources */,
+				EFD418312A05531D007EB351 /* futbolGame.json in Resources */,
+				EFABA60E29D7276D00F43033 /* Preview Assets.xcassets in Resources */,
+				EFABA60B29D7276D00F43033 /* Assets.xcassets in Resources */,
+				EFD418382A055370007EB351 /* spacewars.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFABA5FF29D7276C00F43033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD418422A0553D7007EB351 /* Gammer.swift in Sources */,
+				EFD418512A055483007EB351 /* SkillbettingApp.swift in Sources */,
+				EFD418622A05558F007EB351 /* GameListView.swift in Sources */,
+				EFD418592A0554EE007EB351 /* GammerRowView.swift in Sources */,
+				EFD4184B2A055421007EB351 /* CryptoDataContainer.swift in Sources */,
+				EFD4182B2A055284007EB351 /* GameViewModel.swift in Sources */,
+				EFD418552A0554D1007EB351 /* GameView.swift in Sources */,
+				EFD418482A055401007EB351 /* CryptoData.swift in Sources */,
+				EFD4186B2A055671007EB351 /* CoinListView.swift in Sources */,
+				EFD418682A055652007EB351 /* GammerDetailView.swift in Sources */,
+				EFD4184E2A055441007EB351 /* CryptoServices.swift in Sources */,
+				EFD4185C2A055510007EB351 /* TopGammerRowView.swift in Sources */,
+				EFD4182E2A05529D007EB351 /* CoinListViewModel.swift in Sources */,
+				EFD4185F2A055570007EB351 /* ContentView.swift in Sources */,
+				EFD418652A055637007EB351 /* GammerListView.swift in Sources */,
+				EFD418452A0553EA007EB351 /* Coin.swift in Sources */,
+				EFD4183E2A0553C7007EB351 /* GameModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E5E9E542A1BE4D8003DD333 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5E9E532A1BE4D8003DD333 /* en */,
+				9E5E9E552A1BE51F003DD333 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFABA61029D7276D00F43033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFABA61129D7276D00F43033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFABA61329D7276D00F43033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skillbetting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skillbetting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lasalle.Skillbetting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFABA61429D7276D00F43033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skillbetting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skillbetting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lasalle.Skillbetting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFABA5FE29D7276C00F43033 /* Build configuration list for PBXProject "Skillbetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFABA61029D7276D00F43033 /* Debug */,
+				EFABA61129D7276D00F43033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFABA61229D7276D00F43033 /* Build configuration list for PBXNativeTarget "Skillbetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFABA61329D7276D00F43033 /* Debug */,
+				EFABA61429D7276D00F43033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFE3D4002A0BDE5300BEEDBC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFE3D4012A0BDE5300BEEDBC /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFE3D4002A0BDE5300BEEDBC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EFABA5FB29D7276C00F43033 /* Project object */;
+}
