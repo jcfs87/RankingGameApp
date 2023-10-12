@@ -1,9 +1,6 @@
 
-![rankingfoto](https://github.com/jcfs87/RankingGameApp/assets/97728569/229c5074-bc2a-4754-96f1-085fa588a586)
+![pantallaPrincipal](https://github.com/jcfs87/RankingGameApp/assets/97728569/3e0857d1-21a8-40a9-8be6-8acb1a7220de)
 
-![pantallaPrincipal](https://github.com/jcfs87/RankingGameApp/assets/97728569/58c24fee-ce03-4809-aef5-f267617909b7)
-
-![rankingView](https://github.com/jcfs87/RankingGameApp/assets/97728569/d6e7aceb-8419-4800-813e-50b69723e284)
 
 
 
