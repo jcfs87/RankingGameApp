@@ -1,10 +1,9 @@
 
-![rankingView](https://github.com/jcfs87/RankingGameApp/assets/97728569/9979a6b6-3142-4ed3-a213-a3e1
+![rankingfoto](https://github.com/jcfs87/RankingGameApp/assets/97728569/229c5074-bc2a-4754-96f1-085fa588a586)
 
-![rankingfoto](https://github.com/jcfs87/RankingGameApp/assets/97728569/88f3d8ba-e167-4284-84e2-fe37710a1fc9)
-dbdd9ab9)
+![pantallaPrincipal](https://github.com/jcfs87/RankingGameApp/assets/97728569/58c24fee-ce03-4809-aef5-f267617909b7)
 
-![pantallaPrincipal](https://github.com/jcfs87/RankingGameApp/assets/97728569/f97b3d8e-62a2-430d-ab53-0979f4b28ca5)
+![rankingView](https://github.com/jcfs87/RankingGameApp/assets/97728569/d6e7aceb-8419-4800-813e-50b69723e284)
 
 
 
