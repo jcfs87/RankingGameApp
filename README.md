@@ -1,5 +1,6 @@
 
-![pantallaPrincipal](https://github.com/jcfs87/RankingGameApp/assets/97728569/3e0857d1-21a8-40a9-8be6-8acb1a7220de)
+![pantallaPrincipal](https://github.com/jcfs87/RankingGameApp/assets/97728569/3b157b90-6605-46ee-91c7-8ced7fc2467f)
+
 
 
 
